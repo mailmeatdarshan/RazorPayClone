@@ -15,7 +15,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     // Base path - leave as '/' for Netlify
-    base: '/',
+    base: './',
     
     // Build configuration
     build: {
