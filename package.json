@@ -1,6 +1,11 @@
 {
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
